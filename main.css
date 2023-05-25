@@ -1,5 +1,11 @@
+*{
+    font-size:20px ;
+}
+:root{
+    --text-color:red;
+}
 p {
-    color:black;
+    color:var( --text-color);
 }
 
 h2 {
