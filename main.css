@@ -29,7 +29,9 @@ html {
     height: 300px;
     background-color: green;
 }
-
+.box-2:hover{
+    background-color:red;
+}
 .box-2 {
     width: 50%;
     height: 50%;
