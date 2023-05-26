@@ -29,6 +29,9 @@ html {
     height: 300px;
     background-color: green;
 }
+.box-1:active{
+    background-color: yellow;
+}
 .box-2:hover{
     background-color:red;
 }
@@ -36,4 +39,11 @@ html {
     width: 50%;
     height: 50%;
     background-color:rgba(0, 0, 0, 0.5)
+}
+
+li  a.java:hover{
+        color:yellow;
+}
+li a.js:hover{
+    color:red;
 }
