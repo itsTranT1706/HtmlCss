@@ -1,49 +1,102 @@
-*{
-    font-size:20px ;
+body{
+    background-color: rgb(86, 86, 218);
+}
+.avt img{
+    max-width: 10%;
+    margin-left:45% ;
+    margin-top: -45px;
+}
+p{
+    font-size: 22px;
+}
+h2{
+    text-align: center;
+    font-size: 35px;
+}
+h2::first-letter{
+    font-size: 150%;
+  color: black;
+}
+ol{
+    font-size: 22px;
+    font-weight: 420;
+    
+}
+ol>p{
+    font-weight:600 ;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color :red;
+}
+div.social-media{
+    /* display: block; */
+    box-shadow: 5px 10px #c9c3c3;
+    background-color: deepskyblue;
+    border: 2px solid;
+    border-color:rgb(48, 48, 121) ;
+}
+.background{
+    margin-left:42% ;
+    align-items: center;
+}
+
+
+h1{
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
 }
 :root{
-    --text-color:red;
-}
-p {
-    color:var( --text-color);
-}
+    --text-color1: rgb(16, 223, 68);
+    --text-color2: rgb(217, 240, 13);
+    --text-color3: rgb(240, 77, 13);
 
-h2 {
-    color : blueviolet;
-    font-size: medium;"
 }
-html {
-    /* Thử thay đổi font-size và khám phá sự thay đổi */
-    font-size: 24px;
-}
-
-.text-1 {
-    font-size: 1rem;
-}
-
-.text-2 {
-    font-size: 2rem;
-}
-.box-1 {
-    width: 300px;
-    height: 300px;
-    background-color: green;
-}
-.box-1:active{
-    background-color: yellow;
-}
-.box-2:hover{
-    background-color:red;
-}
-.box-2 {
-    width: 50%;
-    height: 50%;
-    background-color:rgba(0, 0, 0, 0.5)
-}
-
-li  a.java:hover{
-        color:yellow;
-}
-li a.js:hover{
-    color:red;
-}
+@-webkit-keyframes my {
+    0% {
+      color: var(--text-color2);
+    } 
+    50% {
+      color: var(--text-color1);
+    } 
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+  @-moz-keyframes my { 
+    0% {
+      color: var(--text-color1);
+    } 
+    50% {
+      color: var(--text-color2);
+    }
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+  @-o-keyframes my { 
+    0% {
+      color: var(--text-color2);
+    } 
+    50% {
+      color: var(--text-color1);
+    } 
+    100% {
+      color: var(--text-color3);
+    } 
+  }
+   @keyframes my { 
+     0% {
+      color: #ffff00;
+    } 
+    50% {
+      color: var(--text-color2);
+    }
+    100% {
+      color: var(--text-color1);
+    } 
+  }
